@@ -437,18 +437,17 @@ UINT Comm_Read(LPVOID pParam)
 	COleSafeArray fs;
 	fs = InputData; //VARIANT型变À量转换为COleSafeArray型变量
 	len = fs.GetOneDimSize();
-
-	//*********************************显示已接收字节数计数
-	m_Rxcont = pMyClass->GetDlgItemInt(IDC_EDIT_Rxcont);
-	m_Rxcont += len;
-	pMyClass->SetDlgItemInt(IDC_EDIT_Rxcont, m_Rxcont);
-	//*********************************更新行数---增加一行
-	nline = pMyClass->GetDlgItemInt(IDC_EDIT_Dcont);
-	nline = nline + 1;
-	pMyClass->SetDlgItemInt(IDC_EDIT_Dcont, nline, 1);
-
 	if (len > 0)
 	{
+		//*********************************显示已接收字节数计数
+		m_Rxcont = pMyClass->GetDlgItemInt(IDC_EDIT_Rxcont);
+		m_Rxcont += len;
+		pMyClass->SetDlgItemInt(IDC_EDIT_Rxcont, m_Rxcont);
+		//*********************************更新行数---增加一行
+		nline = pMyClass->GetDlgItemInt(IDC_EDIT_Dcont);
+		nline = nline + 1;
+		pMyClass->SetDlgItemInt(IDC_EDIT_Dcont, nline, 1);
+
 		//*********************************打印时间
 		if (pMyClass->m_PRINTTIME.GetCheck())
 		{
@@ -493,7 +492,7 @@ UINT Comm_Read(LPVOID pParam)
 
 		m_SD = m_EDIT_Dcont + ": " + m_SD;
 
-		pedit->SetFocus();							//设定光标位置为第一行第一位
+		//pedit->SetFocus();							//设定光标位置为第一行第一位
 		pedit->SetSel(nline, -1, TRUE);				//将光标放置到最后一行起始位，从上往下
 		pedit->SetSel(-1, -1);						//将光标放置到最后一行起始位，从上往下
 
