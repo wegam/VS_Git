@@ -13,9 +13,6 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
     </Filter>
-    <Filter Include="Source Files\ChartCtrl">
-      <UniqueIdentifier>{ba0fd54c-135b-445d-b667-aae3570edcc8}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="kpatch.cpp">
@@ -30,82 +27,12 @@
     <ClCompile Include="SerialEx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="SerialWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ChartCtrl\ChartAxis.cpp">
-      <Filter>Source Files\ChartCtrl</Filter>
-    </ClCompile>
-    <ClCompile Include="ChartCtrl\ChartAxisLabel.cpp">
-      <Filter>Source Files\ChartCtrl</Filter>
-    </ClCompile>
-    <ClCompile Include="ChartCtrl\ChartBarSerie.cpp">
-      <Filter>Source Files\ChartCtrl</Filter>
-    </ClCompile>
-    <ClCompile Include="ChartCtrl\ChartCandlestickSerie.cpp">
-      <Filter>Source Files\ChartCtrl</Filter>
-    </ClCompile>
-    <ClCompile Include="ChartCtrl\ChartCrossHairCursor.cpp">
-      <Filter>Source Files\ChartCtrl</Filter>
-    </ClCompile>
-    <ClCompile Include="ChartCtrl\ChartCtrl.cpp">
-      <Filter>Source Files\ChartCtrl</Filter>
-    </ClCompile>
-    <ClCompile Include="ChartCtrl\ChartCursor.cpp">
-      <Filter>Source Files\ChartCtrl</Filter>
-    </ClCompile>
-    <ClCompile Include="ChartCtrl\ChartDateTimeAxis.cpp">
-      <Filter>Source Files\ChartCtrl</Filter>
-    </ClCompile>
-    <ClCompile Include="ChartCtrl\ChartDragLineCursor.cpp">
-      <Filter>Source Files\ChartCtrl</Filter>
-    </ClCompile>
-    <ClCompile Include="ChartCtrl\ChartFont.cpp">
-      <Filter>Source Files\ChartCtrl</Filter>
-    </ClCompile>
-    <ClCompile Include="ChartCtrl\ChartGanttSerie.cpp">
-      <Filter>Source Files\ChartCtrl</Filter>
-    </ClCompile>
-    <ClCompile Include="ChartCtrl\ChartGradient.cpp">
-      <Filter>Source Files\ChartCtrl</Filter>
-    </ClCompile>
-    <ClCompile Include="ChartCtrl\ChartGrid.cpp">
-      <Filter>Source Files\ChartCtrl</Filter>
-    </ClCompile>
-    <ClCompile Include="ChartCtrl\ChartLegend.cpp">
-      <Filter>Source Files\ChartCtrl</Filter>
-    </ClCompile>
-    <ClCompile Include="ChartCtrl\ChartLineSerie.cpp">
-      <Filter>Source Files\ChartCtrl</Filter>
-    </ClCompile>
-    <ClCompile Include="ChartCtrl\ChartLogarithmicAxis.cpp">
-      <Filter>Source Files\ChartCtrl</Filter>
-    </ClCompile>
-    <ClCompile Include="ChartCtrl\ChartPointsSerie.cpp">
-      <Filter>Source Files\ChartCtrl</Filter>
-    </ClCompile>
-    <ClCompile Include="ChartCtrl\ChartScrollBar.cpp">
-      <Filter>Source Files\ChartCtrl</Filter>
-    </ClCompile>
-    <ClCompile Include="ChartCtrl\ChartSerie.cpp">
-      <Filter>Source Files\ChartCtrl</Filter>
-    </ClCompile>
-    <ClCompile Include="ChartCtrl\ChartStandardAxis.cpp">
-      <Filter>Source Files\ChartCtrl</Filter>
-    </ClCompile>
-    <ClCompile Include="ChartCtrl\ChartSurfaceSerie.cpp">
-      <Filter>Source Files\ChartCtrl</Filter>
-    </ClCompile>
-    <ClCompile Include="ChartCtrl\ChartTitle.cpp">
-      <Filter>Source Files\ChartCtrl</Filter>
-    </ClCompile>
-    <ClCompile Include="ChartCtrl\ChartXYSerie.cpp">
-      <Filter>Source Files\ChartCtrl</Filter>
-    </ClCompile>
-    <ClCompile Include="ADDecode.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="SerialWnd.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="kpatch.h">
@@ -132,102 +59,6 @@
     <ClInclude Include="stdafx.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ChartCtrl\ChartAxis.h">
-      <Filter>Source Files\ChartCtrl</Filter>
-    </ClInclude>
-    <ClInclude Include="ChartCtrl\ChartAxisLabel.h">
-      <Filter>Source Files\ChartCtrl</Filter>
-    </ClInclude>
-    <ClInclude Include="ChartCtrl\ChartBalloonLabel.h">
-      <Filter>Source Files\ChartCtrl</Filter>
-    </ClInclude>
-    <ClInclude Include="ChartCtrl\ChartBarSerie.h">
-      <Filter>Source Files\ChartCtrl</Filter>
-    </ClInclude>
-    <ClInclude Include="ChartCtrl\ChartCandlestickSerie.h">
-      <Filter>Source Files\ChartCtrl</Filter>
-    </ClInclude>
-    <ClInclude Include="ChartCtrl\ChartCrossHairCursor.h">
-      <Filter>Source Files\ChartCtrl</Filter>
-    </ClInclude>
-    <ClInclude Include="ChartCtrl\ChartCtrl.h">
-      <Filter>Source Files\ChartCtrl</Filter>
-    </ClInclude>
-    <ClInclude Include="ChartCtrl\ChartCursor.h">
-      <Filter>Source Files\ChartCtrl</Filter>
-    </ClInclude>
-    <ClInclude Include="ChartCtrl\ChartDateTimeAxis.h">
-      <Filter>Source Files\ChartCtrl</Filter>
-    </ClInclude>
-    <ClInclude Include="ChartCtrl\ChartDragLineCursor.h">
-      <Filter>Source Files\ChartCtrl</Filter>
-    </ClInclude>
-    <ClInclude Include="ChartCtrl\ChartFont.h">
-      <Filter>Source Files\ChartCtrl</Filter>
-    </ClInclude>
-    <ClInclude Include="ChartCtrl\ChartGanttSerie.h">
-      <Filter>Source Files\ChartCtrl</Filter>
-    </ClInclude>
-    <ClInclude Include="ChartCtrl\ChartGradient.h">
-      <Filter>Source Files\ChartCtrl</Filter>
-    </ClInclude>
-    <ClInclude Include="ChartCtrl\ChartGrid.h">
-      <Filter>Source Files\ChartCtrl</Filter>
-    </ClInclude>
-    <ClInclude Include="ChartCtrl\ChartLabel.h">
-      <Filter>Source Files\ChartCtrl</Filter>
-    </ClInclude>
-    <ClInclude Include="ChartCtrl\ChartLegend.h">
-      <Filter>Source Files\ChartCtrl</Filter>
-    </ClInclude>
-    <ClInclude Include="ChartCtrl\ChartLineSerie.h">
-      <Filter>Source Files\ChartCtrl</Filter>
-    </ClInclude>
-    <ClInclude Include="ChartCtrl\ChartLogarithmicAxis.h">
-      <Filter>Source Files\ChartCtrl</Filter>
-    </ClInclude>
-    <ClInclude Include="ChartCtrl\ChartMouseListener.h">
-      <Filter>Source Files\ChartCtrl</Filter>
-    </ClInclude>
-    <ClInclude Include="ChartCtrl\ChartPointsArray.h">
-      <Filter>Source Files\ChartCtrl</Filter>
-    </ClInclude>
-    <ClInclude Include="ChartCtrl\ChartPointsSerie.h">
-      <Filter>Source Files\ChartCtrl</Filter>
-    </ClInclude>
-    <ClInclude Include="ChartCtrl\ChartScrollBar.h">
-      <Filter>Source Files\ChartCtrl</Filter>
-    </ClInclude>
-    <ClInclude Include="ChartCtrl\ChartSerie.h">
-      <Filter>Source Files\ChartCtrl</Filter>
-    </ClInclude>
-    <ClInclude Include="ChartCtrl\ChartSerieBase.h">
-      <Filter>Source Files\ChartCtrl</Filter>
-    </ClInclude>
-    <ClInclude Include="ChartCtrl\ChartSeriesMouseListener.h">
-      <Filter>Source Files\ChartCtrl</Filter>
-    </ClInclude>
-    <ClInclude Include="ChartCtrl\ChartStandardAxis.h">
-      <Filter>Source Files\ChartCtrl</Filter>
-    </ClInclude>
-    <ClInclude Include="ChartCtrl\ChartString.h">
-      <Filter>Source Files\ChartCtrl</Filter>
-    </ClInclude>
-    <ClInclude Include="ChartCtrl\ChartSurfaceSerie.h">
-      <Filter>Source Files\ChartCtrl</Filter>
-    </ClInclude>
-    <ClInclude Include="ChartCtrl\ChartTitle.h">
-      <Filter>Source Files\ChartCtrl</Filter>
-    </ClInclude>
-    <ClInclude Include="ChartCtrl\ChartXYSerie.h">
-      <Filter>Source Files\ChartCtrl</Filter>
-    </ClInclude>
-    <ClInclude Include="ChartCtrl\PointsOrdering.h">
-      <Filter>Source Files\ChartCtrl</Filter>
-    </ClInclude>
-    <ClInclude Include="ADDecode.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Image Include="res\kpatch.ico">
@@ -242,18 +73,6 @@
   <ItemGroup>
     <None Include="res\kpatch.rc2">
       <Filter>Resource Files</Filter>
-    </None>
-    <None Include="ChartCtrl\ChartBalloonLabel.inl">
-      <Filter>Source Files\ChartCtrl</Filter>
-    </None>
-    <None Include="ChartCtrl\ChartLabel.inl">
-      <Filter>Source Files\ChartCtrl</Filter>
-    </None>
-    <None Include="ChartCtrl\ChartPointsArray.inl">
-      <Filter>Source Files\ChartCtrl</Filter>
-    </None>
-    <None Include="ChartCtrl\ChartSerieBase.inl">
-      <Filter>Source Files\ChartCtrl</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
